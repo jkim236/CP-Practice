@@ -1,4 +1,4 @@
-package codejamsolutions;
+package algorithmsPractice;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 

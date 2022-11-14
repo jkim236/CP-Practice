@@ -1,4 +1,4 @@
-package codejamsolutions;
+package algorithmsPractice;
 import java.util.*;
 public class BeautifulTree {
 	public static void main(String[] args) {
