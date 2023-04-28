@@ -9,7 +9,11 @@
 package algorithmsPractice;
 import java.util.*;
 
-
+/** 
+* Keeps count of the frequency of every char to go in lexicographic order. Now add char one by one to the stack , 
+* if the lowest lexicgraphic char is greater than equal to element on top of stack , add the top of stack to answer.
+* At last if the stack isn't empty after traversing all elements, add all elements to the answer.
+*/
 class RobotSwapper {
 	public static void main(String[] args) {
 		System.out.println(robotStack("stringasdfdsaf"));
