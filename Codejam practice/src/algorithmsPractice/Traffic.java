@@ -45,6 +45,7 @@ public class Traffic {
 			}
 		}
 	}
+	
 	// helper method for solution, finds the closest green light to a given index
 	public static int closestGreen(int index, int len, List<Integer> green) {
 		int closest = len;
