@@ -1,4 +1,4 @@
-# Competitive programming practice
+# Data structures and algorithms practice
 Some practice problems I've completed in the past, topics covered include:
 ### - Graphs
 ### - BFS/DFS
