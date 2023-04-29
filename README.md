@@ -9,6 +9,8 @@ Some practice problems I've completed in the past, topics practiced include:
 ### - Game theory
 ### - Arrays
 ### - Trees
+### - Tries
 ### - Dynamic programming
+### - Greedy
 
 Each problem is commented with the problem statement, and the general approach I took to write a solution.
