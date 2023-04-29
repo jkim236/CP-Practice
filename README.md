@@ -1,8 +1,9 @@
 # Data structures and algorithms practice
-Some practice problems I've completed in the past, topics covered include:
+Some practice problems I've completed in the past, topics practiced include:
 ### - Graphs
 ### - BFS/DFS
 ### - Stacks
+### - Queues
 ### - Weighted Nodes
 ### - Shortest path
 ### - Game theory
