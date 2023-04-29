@@ -9,6 +9,5 @@ Some practice problems I've completed in the past, topics covered include:
 ### - Arrays
 ### - Trees
 ### - Dynamic programming
-###     * Memoization
 
 Each problem is commented with the problem statement, and the general approach I took to write a solution.
