@@ -1,7 +1,7 @@
 package algorithmsPractice;
-
 import java.lang.Thread.UncaughtExceptionHandler;
 
+// Used to avoid stack overflow errors for problems where a large recursive stack is needed
 public class Stacktrick {
 	static boolean killMePls = false;
 	public static void main(String[] args) throws Exception {
