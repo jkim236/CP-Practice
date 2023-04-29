@@ -1,7 +1,35 @@
+
+/**
+Date attempted (not optimized): Nov/15/2022
+* Problem statement
+* William arrived at a conference dedicated to cryptocurrencies.
+* Networking, meeting new people, and using friends' connections are essential
+* to stay up to date with the latest news from the world of cryptocurrencies.
+* The conference has 𝑛 participants, who are initially unfamiliar with each other.
+* William can introduce any two people, 𝑎 and 𝑏, who were not familiar before, to each other.
+* William has 𝑑 conditions, 𝑖'th of which requires person 𝑥𝑖 to have a connection to person 𝑦𝑖.
+* Formally, two people 𝑥 and 𝑦 have a connection if there is such a chain 𝑝1=𝑥,𝑝2,𝑝3,…,𝑝𝑘=𝑦
+* for which for all 𝑖 from 1 to 𝑘−1 it's true that two people with numbers 𝑝𝑖 and 𝑝𝑖+1 know each other.
+* For every 𝑖 (1≤𝑖≤𝑑), William wants you to calculate the maximal number of acquaintances
+* one person can have, assuming that William satisfied all conditions from 1 and up to and including 𝑖
+* and performed exactly 𝑖 introductions. The conditions are being checked after William performed 𝑖
+* introductions. The answer for each 𝑖 must be calculated independently. It means that when you
+* compute an answer for 𝑖, you should assume that no two people have been introduced to each other yet.
+* Input:
+* The first line contains two integers 𝑛 and 𝑑 (2≤𝑛≤103,1≤𝑑≤𝑛−1), the number of people, and number of conditions, respectively.
+* Each of the next 𝑑 lines each contain two integers 𝑥𝑖 and 𝑦𝑖 (1≤𝑥𝑖,𝑦𝑖≤𝑛,𝑥𝑖≠𝑦𝑖), the numbers of people
+* which must have a connection according to condition 𝑖.
+* Output:
+* Output 𝑑 integers. 𝑖th number must equal the number of acquaintances the person with the
+* maximal possible acquaintances will have, if William performed 𝑖 introductions and satisfied
+* the first 𝑖 conditions.
+*/
 package algorithmsPractice;
 import java.util.*;
+
 /*
  * NOTE: FURTHER OPTIMIZATION NEEDED
+ * Utilizes graph implementation and bfs to solve problem statement
  */
 public class SocialNetwork {
 	public static void main(String[] args) {
