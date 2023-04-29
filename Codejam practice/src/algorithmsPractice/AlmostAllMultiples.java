@@ -1,4 +1,4 @@
-package cp_practice;
+package algorithmsPractice;
 import java.util.*;
 
 // INCOMPLETE, CODEFORCES ALMOST ALL MULTIPLES

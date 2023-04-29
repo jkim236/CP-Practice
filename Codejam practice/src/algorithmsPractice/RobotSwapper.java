@@ -1,19 +1,8 @@
-/**
-* Date completed: Nov/17/2022
-* Problem statement: 
-* You are given a string s and a robot that currently holds an empty string t. Apply one of the following operations until s and t are both empty:
-* Remove the first character of a string s and give it to the robot. The robot will append this character to the string t.
-* Remove the last character of a string t and give it to the robot. The robot will write this character on paper.
-* Return the lexicographically smallest string that can be written on the paper.
-*/
 package algorithmsPractice;
+
 import java.util.*;
 
-/** 
-* Keeps count of the frequency of every char to go in lexicographic order. Now add char one by one to the stack , 
-* if the lowest lexicgraphic char is greater than equal to element on top of stack , add the top of stack to answer.
-* At last if the stack isn't empty after traversing all elements, add all elements to the answer.
-*/
+// leetcode 2### or smth
 class RobotSwapper {
 	public static void main(String[] args) {
 		System.out.println(robotStack("stringasdfdsaf"));

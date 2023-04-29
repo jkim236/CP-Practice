@@ -1,4 +1,4 @@
-package cp_practice;
+package algorithmsPractice;
 import java.util.*;
 
 // SEing double codeforces

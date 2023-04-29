@@ -1,4 +1,4 @@
-package cp_practice;
+package algorithmsPractice;
 import java.util.*;
 
 // Codeforces, not efficient enough

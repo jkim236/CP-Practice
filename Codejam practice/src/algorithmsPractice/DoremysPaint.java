@@ -1,4 +1,4 @@
-package cp_practice;
+package algorithmsPractice;
 import java.util.*;
 
 // Codeforces problem
@@ -12,7 +12,6 @@ public class DoremysPaint {
 				for (int i = 0; i < len; i ++) {
 					arr[i] = console.nextInt();
 				}
-				int max = -2;
 				int l = 0;
 				int r = arr.length - 1;
 				System.out.println((l + 1) + " " + (r + 1) );
