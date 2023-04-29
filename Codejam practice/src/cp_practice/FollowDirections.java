@@ -2,6 +2,7 @@ package cp_practice;
 
 import java.util.*;
 
+// Codeforces prob
 public class FollowDirections {
 	public static void main(String[] args) {
 		try(Scanner console = new Scanner(System.in)) {

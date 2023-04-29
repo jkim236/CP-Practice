@@ -1,8 +1,7 @@
 package cp_practice;
-
-
 import java.util.*;
 
+// Codeforces, not efficient enough
 public class Rangeupdatequerie {
 	public static void main(String[] args) {
 		try(Scanner console = new Scanner(System.in)) {
